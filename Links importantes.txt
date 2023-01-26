@@ -1,0 +1,14 @@
+Donde puedes subir sitios a un servidor
+https://www.netlify.com
+
+Pagina para saber que tantos navegadores soportan una tecnologia
+https://caniuse.com
+
+Para crear la sombra personalizada para un box shadow
+https://www.cssmatic.com/box-shadow
+
+Enlace a normalize 
+http://necolas.github.io/normalize.css/
+
+Enlace a box sizing componente que siempre debe estar en tu css
+https://www.paulirish.com/2012/box-sizing-border-box-ftw/

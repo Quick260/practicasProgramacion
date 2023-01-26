@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang = "es">
+  <head>
+    <title>App de gatos</title>
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <h1>App de gatos</h1> 
+    <h3>Imagenes de gatos</h3>
+    <main>
+      <p>Haz <strong>click</strong> aqui para ver <a href="https://www.google.com/search?q=gatos&client=opera-gx&hs=6xh&sxsrf=ALiCzsaYZNlnec43BXubrHAMgOWUyJHxlA:1659552106089&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjS5pOuqav5AhVoLEQIHe5KBTwQ_AUoAXoECAIQAw&biw=1399&bih=782&dpr=1" target="_blank" rel="noopener noreferrer">gatos</a>.</p>
+
+      <p><em>Indice</em></p>
+      <p>Haga <s>click</s> para ir a...</p>
+      <a href="#text1">Parrafo 1</a>
+      <a href="#text2">Parrafo 2</a>
+      <a href="#text3">Parrafo 3</a>
+      <a href="#text4">Parrafo 4</a>
+      <a href="#text5">Parrafo 5</a>
+      <br>
+
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgWOCLVV0wRNYlUPGDb-3RZto74mTVl55NMA&usqp=CAU" alt="gato de frente"> 
+
+      <a href="https://es.wikipedia.org/wiki/Felis_silvestris_catus" target="_blank" rel="noopener noreferrer"><img src="imagenes/gato_dos_caras.jpg" alt="gato de dos colores"></a>
+
+      <!--Comentario-->
+
+      <h4 id = "text1">Parrafo 1</h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam non elit viverra, egestas ex sit amet, fermentum risus. Mauris vehicula posuere volutpat. Nunc in justo a ex rhoncus sollicitudin. Duis eget justo et nisi imperdiet volutpat. Quisque bibendum sit amet turpis vel mollis. Aenean tempus risus id viverra sodales. Aliquam pharetra ac urna eget fermentum.</p>
+
+      <h4 id = "text2">Parrafo 2</h4>
+      <p>In finibus dictum magna eget sagittis. Nulla facilisi. Sed eu sem auctor lectus vulputate luctus. Phasellus vestibulum augue et sem congue rhoncus. Proin eleifend venenatis sapien ac imperdiet. Cras consequat mollis orci, eu bibendum est imperdiet non. Etiam et sapien eu tortor facilisis vulputate. Vivamus bibendum mi aliquet mi ullamcorper, eget convallis neque cursus. Suspendisse potenti. Sed nibh nibh, dignissim nec augue at, ultrices venenatis ligula. Aliquam fringilla maximus vehicula.</p>
+
+      <h4 id = "text3">Parrafo 3</h4>
+      <p>Nunc quis gravida neque. Nullam tempor elementum metus quis fringilla. In ac sem lorem. Vivamus rutrum massa nec nibh vestibulum, non fringilla lacus volutpat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Ut congue, nunc sed mattis lacinia, mauris odio ornare felis, non pellentesque velit dui in dolor. Fusce ac leo odio. Mauris vitae feugiat elit, vitae imperdiet nisi. Morbi iaculis mauris nunc, eget tincidunt lorem interdum at. Fusce sit amet tortor quis nunc molestie vehicula. Praesent feugiat euismod ex id tristique. Nulla nec finibus justo, non consequat arcu. Pellentesque suscipit aliquet mollis. Cras laoreet blandit magna, sit amet pellentesque purus consectetur nec. Ut eget elementum orci, et convallis diam.</p>
+
+      <h4 id = "text4">Parrafo 4</h4>
+      <p>Suspendisse ornare eros ac fringilla euismod. Etiam elementum nisi eget massa tempor, eu imperdiet risus semper. Fusce ac eleifend urna. Cras ut leo tristique, rhoncus ex vel, semper erat. Sed pharetra semper metus, ut pretium enim consectetur in. Nunc nec gravida tortor, nec tempor justo. Cras luctus volutpat varius. Nunc sapien dolor, iaculis ac lectus maximus, gravida facilisis elit. Aliquam sed massa a lacus viverra efficitur accumsan at ligula.</p>
+
+      <h4 id = "text5">Parrafo 5</h4>
+      <p>Duis ac dolor tortor. Praesent sed metus tristique, semper ligula vitae, porta neque. Curabitur vel molestie nunc. Sed nisl urna, condimentum quis ultricies vel, volutpat ut lacus. In hac habitasse platea dictumst. Duis sem velit, ultricies non consectetur a, ornare finibus augue. Pellentesque ullamcorper maximus justo, sit amet pretium nisl egestas eu. Curabitur pulvinar lacus eget arcu maximus pretium.</p>
+
+      <hr>
+
+      <div>
+        <h3>listas no ordenadas</h3>
+        <p>Cosas que los gatos aman:</p>
+        <ul class="catList">
+          <li>Hierba</li>
+          <li>Estambre</li>
+          <li>Lasers</li>
+        </ul>
+
+        <h3>listas ordenadas</h3>
+        <p>Cosas que los gatos odian:</p>
+        <ol class="catList">
+          <li>Agua</li>
+          <li>Truenos</li>
+          <li>otros gatos</li>
+        </ol>
+      </div>
+
+      <hr>
+      <h3>Formularios</h3>
+      <form action="/direccion_de_envio">
+        <label><input value="interior" type="radio" name="int-ext">interior</label>
+        <input value="exterior" type="radio" name="int-ext">exterior
+        <br>
+
+        <!--Mejor agregar id y for para cuando se una a la base de datos-->
+        <label for="Carinoso"><input value="carinoso" id="carinoso" type="checkbox" name="personalidad">Carinoso</label>
+        <label for="perezoso"><input value="perezoso" id="perezoso" type="checkbox" name="personalidad">Perezoso</label>
+        <label for="energico"><input value="energico" id="energico" type="checkbox" name="personalidad">Energico </label>
+        <label for="ninguno"><input checked value="ninguno" id="ninguno" type="checkbox" name="personalida">Ninguna de las anteriores</label>
+        <br>
+
+        <input type="text" placeholder="Nombre" required>
+        <button type="submit">Enviar</button>
+      </form>
+
+    </main>
+    <footer>
+      <p><small>Derechos reservados - Enrique Romero Castro</small> </p>
+    </footer>
+  </body>
+</html>
