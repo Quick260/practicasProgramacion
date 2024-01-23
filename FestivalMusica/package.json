@@ -11,5 +11,8 @@
     "Gulp"
   ],
   "author": "Enrique Romero Castro",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.70.0"
+  }
 }
